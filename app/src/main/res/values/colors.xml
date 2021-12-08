@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="textColorr">#2E2E2E</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="teal_200">#80DEEA</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#DF0000</color>
+    <color name="fab">#066AFF</color>
+    <color name="fragment_bg">#F9FAFF</color>
+    <color name="main_bg">#0B1842</color>
+    <color name="recycler_txt_unselected">#B5B7CA</color>
+    <color name="recycler_txt_selected">#FFFFFF</color>
+
+    <color name="mtrl_textinput_default_box_stroke_color">@color/recycler_txt_unselected</color>
+
+
+</resources>

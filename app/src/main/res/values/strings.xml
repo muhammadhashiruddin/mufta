@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Mufta</string>
+    <string name="download">Download</string>
+    <string name="url_text_hint">Paste your URL here</string>
+    <string name="download_button">download Button</string>
+    <string name="remove">remove</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="mp3">audio</string>
+    <string name="mp4">video</string>
+    <string name="allow">allow</string>
+    <string name="auth_detail">Give your spotify account access in order to fetch songs name from playlist of spotify.</string>
+    <string name="storage_details">Allow this app to store songs in your storage.</string>
+    <string name="bgdetails">Give this app permission to run in the background.</string>
+    <string name="spotify_auth">Spotify Authentication</string>
+    <string name="storage_permi">Strorage Permission</string>
+    <string name="background_restriction">Background Permission</string>
+    <string name="example">example</string>
+    <string name="exaple_is">Exaple Is</string>
+    <string name="change_theme">Change Theme</string>
+    <string name="change">change</string>
+    <string name="twitter">Twitter</string>
+    <string name="linkedin">LinkedIn</string>
+    <string name="share">Share</string>
+    <string name="instructions">Instructions</string>
+    <string name="first_step">1) Copy the URL from Spotify or youtube and Paste it in the url search bar.</string>
+    <string name="first_step_a">\t\t\ta) You must have Spotify account in your device which should have your account logged-in in it.</string>
+    <string name="first_step_b">\t\t\tb) It doesn\'t matter if you don\'t have the YouTube app for fetching YouTube songs. You can copy the browser link too.</string>
+    <string name="second_step">2)Press a specific song and Swipe right to delete it from your playlist.</string>
+    <string name="third_step">3) There\'s also a to- from option on the top right corner arrow which enables you to download your specified limit songs. (Eg: from From: 1- To: 10 from 100 songs. Only ten songs will be visible to you for your download.)</string>
+    <string name="forth_step">4) You can also download your song in video format(MP4) by just taping the video option available in the top right corner.</string>
+    <string name="description">Description:</string>
+    <string name="desc">What really inspired me to create the idea to build this app is how it helps everyone in several ways without investing $$</string>
+    <string name="about_app">About App</string>
+    <string name="abt_app">Woah!You just hit a jackpot. Now you can download any playlist from Spotify for free in audio as well as in video format. Not only that but you can also download video and audio from Youtube in your mobile phone Enjoy!</string>
+    <string name="gmail">GMail</string>
+</resources>

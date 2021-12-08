@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="id_activity_screen_title">
+        <item></item>
+        <item>Search</item>
+        <item>Permissions</item>
+        <item>About Us</item>
+        <item/>
+        <item>Exit</item>
+
+    </string-array>
+
+    <array name="id_activity_screen_icon">
+        <item>@drawable/back</item>
+        <item>@drawable/search</item>
+        <item>@drawable/cancel</item>
+        <item>@drawable/cancel</item>
+        <item>0</item>
+        <item>@drawable/exit</item>
+    </array>
+</resources>

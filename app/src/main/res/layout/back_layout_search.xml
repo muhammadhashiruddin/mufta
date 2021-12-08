@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bk_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/main_bg"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/TextInputLayoutStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:foregroundTint="@color/recycler_txt_unselected"
+            android:hint="@string/url_text_hint"
+            android:padding="10dp"
+            android:textColorHint="@color/recycler_txt_unselected"
+            app:boxCornerRadiusBottomEnd="30sp"
+            app:boxCornerRadiusBottomStart="30sp"
+            app:boxCornerRadiusTopEnd="30sp"
+            app:boxCornerRadiusTopStart="30sp"
+            app:boxStrokeColor="@color/recycler_txt_unselected"
+            app:boxStrokeWidthFocused="2dp"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/recycler_txt_unselected"
+            app:hintTextColor="@color/recycler_txt_unselected"
+            app:startIconDrawable="@drawable/search"
+            app:startIconTint="@color/recycler_txt_unselected">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/url_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:textColor="@color/recycler_txt_unselected"
+                android:textSize="18sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/button_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round"
+            android:backgroundTint="@color/fab"
+            android:drawableEnd="@drawable/search"
+            android:text="search" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/TextInputLayoutStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:foregroundTint="@color/recycler_txt_unselected"
+            android:hint="@string/from"
+            android:paddingStart="10dp"
+            android:paddingEnd="5dp"
+            android:paddingBottom="10dp"
+            android:textColorHint="@color/recycler_txt_unselected"
+            app:boxBackgroundMode="outline"
+            app:boxCornerRadiusBottomEnd="30sp"
+            app:boxCornerRadiusBottomStart="30sp"
+            app:boxCornerRadiusTopEnd="30sp"
+            app:boxCornerRadiusTopStart="30sp"
+            app:boxStrokeColor="@color/recycler_txt_unselected"
+            app:boxStrokeWidth="2dp"
+            app:boxStrokeWidthFocused="2dp"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/recycler_txt_unselected"
+            app:hintTextColor="@color/recycler_txt_unselected"
+            app:startIconDrawable="@drawable/ic_baseline_dialpad_24"
+            app:startIconTint="@color/recycler_txt_unselected">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/from_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="@color/recycler_txt_unselected"
+                android:textSize="18sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/TextInputLayoutStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:foregroundTint="@color/recycler_txt_unselected"
+            android:hint="@string/to"
+            android:paddingStart="5dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:textColorHint="@color/recycler_txt_unselected"
+            app:boxBackgroundMode="outline"
+            app:boxCornerRadiusBottomEnd="30sp"
+            app:boxCornerRadiusBottomStart="30sp"
+            app:boxCornerRadiusTopEnd="30sp"
+            app:boxCornerRadiusTopStart="30sp"
+            app:boxStrokeColor="@color/recycler_txt_unselected"
+            app:boxStrokeWidth="2dp"
+            app:boxStrokeWidthFocused="2dp"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/recycler_txt_unselected"
+            app:hintTextColor="@color/recycler_txt_unselected"
+            app:startIconDrawable="@drawable/ic_baseline_dialpad_24"
+            app:startIconTint="@color/recycler_txt_unselected">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/to_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="@color/recycler_txt_unselected"
+                android:textSize="18sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp">
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/mp3_radio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/mp3"
+            android:textColor="@color/recycler_txt_unselected"
+            android:textSize="18sp" />
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/mp4_radio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/mp4"
+            android:textColor="@color/recycler_txt_unselected"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

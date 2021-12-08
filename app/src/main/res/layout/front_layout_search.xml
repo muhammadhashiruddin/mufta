@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fr_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/round"
+    android:padding="8dp"
+    android:keepScreenOn="true"
+    app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/load"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/emptyy" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/white"
+            android:dividerHeight="0dp"
+            android:textColor="@color/textColorr"/>
+
+        <!--                    <com.airbnb.lottie.LottieAnimationView-->
+        <!--                        android:visibility="gone"-->
+        <!--                        android:id="@+id/down_load"-->
+        <!--                        android:layout_width="50dp"-->
+        <!--                        android:layout_height="50dp"-->
+        <!--                        android:layout_gravity="top"-->
+        <!--                        app:lottie_autoPlay="true"-->
+        <!--                        app:lottie_loop="true"-->
+        <!--                        app:lottie_rawRes="@raw/loadtwo"/>-->
+
+
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_action_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        app:backgroundTint="@color/fab"
+        android:tint="@android:color/white"
+        android:contentDescription="@string/download"
+        app:srcCompat="@drawable/download" />
+
+    <LinearLayout
+        android:id="@+id/progress_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:backgroundTint="@color/main_bg"
+        android:background="@drawable/round"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_marginStart="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pr"
+            android:fontFamily="@font/baloo_bhai"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/recycler_txt_unselected"/>
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pb"
+            android:progressTint="@color/fab"
+            android:progressBackgroundTint="@color/fab"
+            android:scaleY="5"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="60dp"
+            style="?android:attr/progressBarStyleHorizontal"/>
+
+    </LinearLayout>
+</RelativeLayout>
